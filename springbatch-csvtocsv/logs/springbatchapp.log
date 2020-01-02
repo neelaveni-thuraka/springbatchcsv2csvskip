@@ -1,0 +1,461 @@
+2020-01-02 15:13:11,894 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] Starting SpringbatchCsvtocsvApplication on DIN83001096 with PID 10312 (started by tneelave in C:\Users\tneelave\spring-batch-data\springbatch-csvtocsv\springbatch-csvtocsv)
+2020-01-02 15:13:11,896 DEBUG com.springbatch.SpringbatchCsvtocsvApplication [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-02 15:13:11,896 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] No active profile set, falling back to default profiles: default
+2020-01-02 15:13:12,516 INFO com.springbatch.step.Reader [main] --------------Reader----------
+2020-01-02 15:13:12,565 INFO com.springbatch.config.BatchConfiguration [main] ===============in job method========
+2020-01-02 15:13:12,671 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] Started SpringbatchCsvtocsvApplication in 1.116 seconds (JVM running for 2.388)
+2020-01-02 15:13:12,672 INFO org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner [main] Running default command line with: []
+2020-01-02 15:13:12,673 WARN org.springframework.batch.core.configuration.annotation.DefaultBatchConfigurer [main] No datasource was provided...using a Map based JobRepository
+2020-01-02 15:13:12,674 WARN org.springframework.batch.core.configuration.annotation.DefaultBatchConfigurer [main] No transaction manager was provided, using a ResourcelessTransactionManager
+2020-01-02 15:13:12,688 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-01-02 15:13:12,733 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] Job: [FlowJob: [name=processJob1]] launched with the following parameters: [{run.id=1}]
+2020-01-02 15:13:12,770 INFO org.springframework.batch.core.job.SimpleStepHandler [main] Executing step: [orderStep7]
+2020-01-02 15:13:12,817 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=neelu, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=70.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 15:13:12,818 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=sudha, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=27.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 15:13:12,827 INFO org.springframework.batch.core.step.AbstractStep [main] Step: [orderStep7] executed in 56ms
+2020-01-02 15:13:12,831 INFO com.springbatch.listener.JobCompletionListener [main] JOB COMPLETED SUCCESSFULLY
+2020-01-02 15:13:12,834 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] Job: [FlowJob: [name=processJob1]] completed with the following parameters: [{run.id=1}] and the following status: [COMPLETED] in 76ms
+2020-01-02 15:14:06,168 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] Starting SpringbatchCsvtocsvApplication on DIN83001096 with PID 8476 (started by tneelave in C:\Users\tneelave\spring-batch-data\springbatch-csvtocsv\springbatch-csvtocsv)
+2020-01-02 15:14:06,170 DEBUG com.springbatch.SpringbatchCsvtocsvApplication [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-02 15:14:06,171 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] No active profile set, falling back to default profiles: default
+2020-01-02 15:14:06,783 INFO com.springbatch.step.Reader [main] --------------Reader----------
+2020-01-02 15:14:06,835 INFO com.springbatch.config.BatchConfiguration [main] ===============in job method========
+2020-01-02 15:14:06,942 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] Started SpringbatchCsvtocsvApplication in 1.118 seconds (JVM running for 2.351)
+2020-01-02 15:14:06,943 INFO org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner [main] Running default command line with: []
+2020-01-02 15:14:06,944 WARN org.springframework.batch.core.configuration.annotation.DefaultBatchConfigurer [main] No datasource was provided...using a Map based JobRepository
+2020-01-02 15:14:06,944 WARN org.springframework.batch.core.configuration.annotation.DefaultBatchConfigurer [main] No transaction manager was provided, using a ResourcelessTransactionManager
+2020-01-02 15:14:06,959 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-01-02 15:14:07,004 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] Job: [FlowJob: [name=processJob1]] launched with the following parameters: [{run.id=1}]
+2020-01-02 15:14:07,044 INFO org.springframework.batch.core.job.SimpleStepHandler [main] Executing step: [orderStep7]
+2020-01-02 15:14:07,099 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=neelu, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=70.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 15:14:07,100 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=sudha, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=27.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=17.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 15:14:07,100 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 15:14:07,111 INFO org.springframework.batch.core.step.AbstractStep [main] Step: [orderStep7] executed in 66ms
+2020-01-02 15:14:07,115 INFO com.springbatch.listener.JobCompletionListener [main] JOB COMPLETED SUCCESSFULLY
+2020-01-02 15:14:07,119 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] Job: [FlowJob: [name=processJob1]] completed with the following parameters: [{run.id=1}] and the following status: [COMPLETED] in 87ms
+2020-01-02 15:14:55,296 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] Starting SpringbatchCsvtocsvApplication on DIN83001096 with PID 14608 (started by tneelave in C:\Users\tneelave\spring-batch-data\springbatch-csvtocsv\springbatch-csvtocsv)
+2020-01-02 15:14:55,298 DEBUG com.springbatch.SpringbatchCsvtocsvApplication [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-02 15:14:55,299 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] No active profile set, falling back to default profiles: default
+2020-01-02 15:14:55,885 INFO com.springbatch.step.Reader [main] --------------Reader----------
+2020-01-02 15:14:55,937 INFO com.springbatch.config.BatchConfiguration [main] ===============in job method========
+2020-01-02 15:14:56,041 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] Started SpringbatchCsvtocsvApplication in 1.105 seconds (JVM running for 2.412)
+2020-01-02 15:14:56,043 INFO org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner [main] Running default command line with: []
+2020-01-02 15:14:56,044 WARN org.springframework.batch.core.configuration.annotation.DefaultBatchConfigurer [main] No datasource was provided...using a Map based JobRepository
+2020-01-02 15:14:56,044 WARN org.springframework.batch.core.configuration.annotation.DefaultBatchConfigurer [main] No transaction manager was provided, using a ResourcelessTransactionManager
+2020-01-02 15:14:56,060 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-01-02 15:14:56,104 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] Job: [FlowJob: [name=processJob1]] launched with the following parameters: [{run.id=1}]
+2020-01-02 15:14:56,142 INFO org.springframework.batch.core.job.SimpleStepHandler [main] Executing step: [orderStep7]
+2020-01-02 15:14:56,189 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=neelu, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=70.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 15:14:56,189 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 15:14:56,189 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=sudha, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=27.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=17.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 15:14:56,190 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=neelu, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=70.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=367.0, percantage=73.4, grade=B]
+2020-01-02 15:14:56,190 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 15:14:56,203 INFO org.springframework.batch.core.step.AbstractStep [main] Step: [orderStep7] executed in 61ms
+2020-01-02 15:14:56,208 INFO com.springbatch.listener.JobCompletionListener [main] JOB COMPLETED SUCCESSFULLY
+2020-01-02 15:14:56,212 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] Job: [FlowJob: [name=processJob1]] completed with the following parameters: [{run.id=1}] and the following status: [COMPLETED] in 82ms
+2020-01-02 15:15:39,018 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] Starting SpringbatchCsvtocsvApplication on DIN83001096 with PID 8936 (started by tneelave in C:\Users\tneelave\spring-batch-data\springbatch-csvtocsv\springbatch-csvtocsv)
+2020-01-02 15:15:39,024 DEBUG com.springbatch.SpringbatchCsvtocsvApplication [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-02 15:15:39,024 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] No active profile set, falling back to default profiles: default
+2020-01-02 15:15:39,787 INFO com.springbatch.step.Reader [main] --------------Reader----------
+2020-01-02 15:15:39,854 INFO com.springbatch.config.BatchConfiguration [main] ===============in job method========
+2020-01-02 15:15:39,989 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] Started SpringbatchCsvtocsvApplication in 1.417 seconds (JVM running for 3.207)
+2020-01-02 15:15:39,990 INFO org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner [main] Running default command line with: []
+2020-01-02 15:15:39,992 WARN org.springframework.batch.core.configuration.annotation.DefaultBatchConfigurer [main] No datasource was provided...using a Map based JobRepository
+2020-01-02 15:15:39,992 WARN org.springframework.batch.core.configuration.annotation.DefaultBatchConfigurer [main] No transaction manager was provided, using a ResourcelessTransactionManager
+2020-01-02 15:15:40,011 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-01-02 15:15:40,054 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] Job: [FlowJob: [name=processJob1]] launched with the following parameters: [{run.id=1}]
+2020-01-02 15:15:40,099 INFO org.springframework.batch.core.job.SimpleStepHandler [main] Executing step: [orderStep7]
+2020-01-02 15:15:40,159 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=neelu, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=70.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 15:15:40,160 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 15:17:34,354 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=sudha, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=27.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=17.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 15:17:34,358 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=neelu, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=70.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=367.0, percantage=73.4, grade=B]
+2020-01-02 15:17:34,359 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 15:17:48,465 INFO org.springframework.batch.core.step.AbstractStep [main] Step: [orderStep7] executed in 2m8s365ms
+2020-01-02 15:17:48,479 INFO com.springbatch.listener.JobCompletionListener [main] JOB COMPLETED SUCCESSFULLY
+2020-01-02 15:17:48,490 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] Job: [FlowJob: [name=processJob1]] completed with the following parameters: [{run.id=1}] and the following status: [COMPLETED] in 2m8s396ms
+2020-01-02 15:18:41,561 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] Starting SpringbatchCsvtocsvApplication on DIN83001096 with PID 3372 (started by tneelave in C:\Users\tneelave\spring-batch-data\springbatch-csvtocsv\springbatch-csvtocsv)
+2020-01-02 15:18:41,563 DEBUG com.springbatch.SpringbatchCsvtocsvApplication [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-02 15:18:41,563 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] No active profile set, falling back to default profiles: default
+2020-01-02 15:18:42,163 INFO com.springbatch.step.Reader [main] --------------Reader----------
+2020-01-02 15:18:42,220 INFO com.springbatch.config.BatchConfiguration [main] ===============in job method========
+2020-01-02 15:18:42,324 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] Started SpringbatchCsvtocsvApplication in 1.113 seconds (JVM running for 2.395)
+2020-01-02 15:18:42,325 INFO org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner [main] Running default command line with: []
+2020-01-02 15:18:42,326 WARN org.springframework.batch.core.configuration.annotation.DefaultBatchConfigurer [main] No datasource was provided...using a Map based JobRepository
+2020-01-02 15:18:42,327 WARN org.springframework.batch.core.configuration.annotation.DefaultBatchConfigurer [main] No transaction manager was provided, using a ResourcelessTransactionManager
+2020-01-02 15:18:42,342 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-01-02 15:18:42,389 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] Job: [FlowJob: [name=processJob1]] launched with the following parameters: [{run.id=1}]
+2020-01-02 15:18:42,428 INFO org.springframework.batch.core.job.SimpleStepHandler [main] Executing step: [orderStep7]
+2020-01-02 15:18:42,472 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=neelu, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=70.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 15:18:42,472 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 15:18:42,472 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=sudha, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=27.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=17.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 15:18:42,473 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=neelu, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=70.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=367.0, percantage=73.4, grade=B]
+2020-01-02 15:18:42,473 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 15:18:42,483 INFO org.springframework.batch.core.step.AbstractStep [main] Step: [orderStep7] executed in 54ms
+2020-01-02 15:18:42,487 INFO com.springbatch.listener.JobCompletionListener [main] JOB COMPLETED SUCCESSFULLY
+2020-01-02 15:18:42,491 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] Job: [FlowJob: [name=processJob1]] completed with the following parameters: [{run.id=1}] and the following status: [COMPLETED] in 74ms
+2020-01-02 15:19:22,127 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] Starting SpringbatchCsvtocsvApplication on DIN83001096 with PID 14648 (started by tneelave in C:\Users\tneelave\spring-batch-data\springbatch-csvtocsv\springbatch-csvtocsv)
+2020-01-02 15:19:22,129 DEBUG com.springbatch.SpringbatchCsvtocsvApplication [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-02 15:19:22,130 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] No active profile set, falling back to default profiles: default
+2020-01-02 15:19:22,729 INFO com.springbatch.step.Reader [main] --------------Reader----------
+2020-01-02 15:19:22,780 INFO com.springbatch.config.BatchConfiguration [main] ===============in job method========
+2020-01-02 15:19:22,887 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] Started SpringbatchCsvtocsvApplication in 1.086 seconds (JVM running for 2.349)
+2020-01-02 15:19:22,888 INFO org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner [main] Running default command line with: []
+2020-01-02 15:19:22,889 WARN org.springframework.batch.core.configuration.annotation.DefaultBatchConfigurer [main] No datasource was provided...using a Map based JobRepository
+2020-01-02 15:19:22,889 WARN org.springframework.batch.core.configuration.annotation.DefaultBatchConfigurer [main] No transaction manager was provided, using a ResourcelessTransactionManager
+2020-01-02 15:19:22,904 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-01-02 15:19:22,948 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] Job: [FlowJob: [name=processJob1]] launched with the following parameters: [{run.id=1}]
+2020-01-02 15:19:22,986 INFO org.springframework.batch.core.job.SimpleStepHandler [main] Executing step: [orderStep7]
+2020-01-02 15:19:23,031 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=neelu, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=70.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 15:19:23,032 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 15:19:23,032 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=sudha, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=27.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=17.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 15:19:23,033 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=neelu, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=70.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=367.0, percantage=73.4, grade=B]
+2020-01-02 15:19:23,033 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 15:19:23,043 INFO org.springframework.batch.core.step.AbstractStep [main] Step: [orderStep7] executed in 56ms
+2020-01-02 15:19:23,047 INFO com.springbatch.listener.JobCompletionListener [main] JOB COMPLETED SUCCESSFULLY
+2020-01-02 15:19:23,051 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] Job: [FlowJob: [name=processJob1]] completed with the following parameters: [{run.id=1}] and the following status: [COMPLETED] in 77ms
+2020-01-02 15:20:51,492 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] Starting SpringbatchCsvtocsvApplication on DIN83001096 with PID 3884 (started by tneelave in C:\Users\tneelave\spring-batch-data\springbatch-csvtocsv\springbatch-csvtocsv)
+2020-01-02 15:20:51,493 DEBUG com.springbatch.SpringbatchCsvtocsvApplication [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-02 15:20:51,493 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] No active profile set, falling back to default profiles: default
+2020-01-02 15:20:52,093 INFO com.springbatch.step.Reader [main] --------------Reader----------
+2020-01-02 15:20:52,145 INFO com.springbatch.config.BatchConfiguration [main] ===============in job method========
+2020-01-02 15:20:52,248 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] Started SpringbatchCsvtocsvApplication in 1.098 seconds (JVM running for 2.382)
+2020-01-02 15:20:52,249 INFO org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner [main] Running default command line with: []
+2020-01-02 15:20:52,250 WARN org.springframework.batch.core.configuration.annotation.DefaultBatchConfigurer [main] No datasource was provided...using a Map based JobRepository
+2020-01-02 15:20:52,250 WARN org.springframework.batch.core.configuration.annotation.DefaultBatchConfigurer [main] No transaction manager was provided, using a ResourcelessTransactionManager
+2020-01-02 15:20:52,265 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-01-02 15:20:52,308 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] Job: [FlowJob: [name=processJob1]] launched with the following parameters: [{run.id=1}]
+2020-01-02 15:20:52,347 INFO org.springframework.batch.core.job.SimpleStepHandler [main] Executing step: [orderStep7]
+2020-01-02 15:20:52,392 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=neelu, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=70.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 15:20:52,392 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 15:20:52,393 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=sudha, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=27.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=17.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 15:20:52,393 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 15:20:52,406 INFO org.springframework.batch.core.step.AbstractStep [main] Step: [orderStep7] executed in 58ms
+2020-01-02 15:20:52,410 INFO com.springbatch.listener.JobCompletionListener [main] JOB COMPLETED SUCCESSFULLY
+2020-01-02 15:20:52,413 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] Job: [FlowJob: [name=processJob1]] completed with the following parameters: [{run.id=1}] and the following status: [COMPLETED] in 79ms
+2020-01-02 15:27:45,401 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] Starting SpringbatchCsvtocsvApplication on DIN83001096 with PID 12456 (started by tneelave in C:\Users\tneelave\spring-batch-data\springbatch-csvtocsv\springbatch-csvtocsv)
+2020-01-02 15:27:45,403 DEBUG com.springbatch.SpringbatchCsvtocsvApplication [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-02 15:27:45,404 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] No active profile set, falling back to default profiles: default
+2020-01-02 15:27:45,959 WARN org.springframework.context.annotation.AnnotationConfigApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'batchConfiguration': Unsatisfied dependency expressed through field 'itemSkipListener'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'itemSkipListener': Unsatisfied dependency expressed through field 'failStudentWriter'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.springbatch.step.FailStudentWriter' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-01-02 15:27:45,966 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-01-02 15:27:46,088 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field failStudentWriter in com.springbatch.listener.ItemSkipListener required a bean of type 'com.springbatch.step.FailStudentWriter' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.springbatch.step.FailStudentWriter' in your configuration.
+
+2020-01-02 15:29:52,807 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] Starting SpringbatchCsvtocsvApplication on DIN83001096 with PID 12880 (started by tneelave in C:\Users\tneelave\spring-batch-data\springbatch-csvtocsv\springbatch-csvtocsv)
+2020-01-02 15:29:52,809 DEBUG com.springbatch.SpringbatchCsvtocsvApplication [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-02 15:29:52,810 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] No active profile set, falling back to default profiles: default
+2020-01-02 15:29:53,385 WARN org.springframework.context.annotation.AnnotationConfigApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'batchConfiguration': Unsatisfied dependency expressed through field 'itemSkipListener'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'itemSkipListener': Unsatisfied dependency expressed through field 'failStudentWriter'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.springbatch.step.FailStudentWriter' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-01-02 15:29:53,391 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-01-02 15:29:53,505 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field failStudentWriter in com.springbatch.listener.ItemSkipListener required a bean of type 'com.springbatch.step.FailStudentWriter' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.springbatch.step.FailStudentWriter' in your configuration.
+
+2020-01-02 15:31:30,803 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] Starting SpringbatchCsvtocsvApplication on DIN83001096 with PID 10232 (started by tneelave in C:\Users\tneelave\spring-batch-data\springbatch-csvtocsv\springbatch-csvtocsv)
+2020-01-02 15:31:30,805 DEBUG com.springbatch.SpringbatchCsvtocsvApplication [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-02 15:31:30,805 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] No active profile set, falling back to default profiles: default
+2020-01-02 15:31:31,400 INFO com.springbatch.step.Reader [main] --------------Reader----------
+2020-01-02 15:31:31,451 INFO com.springbatch.config.BatchConfiguration [main] ===============in job method========
+2020-01-02 15:31:31,556 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] Started SpringbatchCsvtocsvApplication in 1.094 seconds (JVM running for 3.566)
+2020-01-02 15:31:31,557 INFO org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner [main] Running default command line with: []
+2020-01-02 15:31:31,558 WARN org.springframework.batch.core.configuration.annotation.DefaultBatchConfigurer [main] No datasource was provided...using a Map based JobRepository
+2020-01-02 15:31:31,559 WARN org.springframework.batch.core.configuration.annotation.DefaultBatchConfigurer [main] No transaction manager was provided, using a ResourcelessTransactionManager
+2020-01-02 15:31:31,572 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-01-02 15:31:31,620 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] Job: [FlowJob: [name=processJob1]] launched with the following parameters: [{run.id=1}]
+2020-01-02 15:31:31,658 INFO org.springframework.batch.core.job.SimpleStepHandler [main] Executing step: [orderStep7]
+2020-01-02 15:31:31,716 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=neelu, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=70.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 15:31:31,717 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 15:31:31,717 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=sudha, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=27.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=17.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 15:31:31,718 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=neelu, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=70.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=367.0, percantage=73.4, grade=B]
+2020-01-02 15:31:31,718 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 15:31:31,718 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=bhagya, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=27.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=17.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 15:31:31,719 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=neelu, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=70.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=367.0, percantage=73.4, grade=B]
+2020-01-02 15:31:31,719 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 15:31:31,728 INFO org.springframework.batch.core.step.AbstractStep [main] Step: [orderStep7] executed in 69ms
+2020-01-02 15:31:31,733 INFO com.springbatch.listener.JobCompletionListener [main] JOB COMPLETED SUCCESSFULLY
+2020-01-02 15:31:31,736 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] Job: [FlowJob: [name=processJob1]] completed with the following parameters: [{run.id=1}] and the following status: [COMPLETED] in 91ms
+2020-01-02 15:36:03,333 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] Starting SpringbatchCsvtocsvApplication on DIN83001096 with PID 12836 (started by tneelave in C:\Users\tneelave\spring-batch-data\springbatch-csvtocsv\springbatch-csvtocsv)
+2020-01-02 15:36:03,336 DEBUG com.springbatch.SpringbatchCsvtocsvApplication [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-02 15:36:03,336 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] No active profile set, falling back to default profiles: default
+2020-01-02 15:36:03,971 INFO com.springbatch.step.Reader [main] --------------Reader----------
+2020-01-02 15:36:04,028 INFO com.springbatch.config.BatchConfiguration [main] ===============in job method========
+2020-01-02 15:36:04,147 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] Started SpringbatchCsvtocsvApplication in 1.159 seconds (JVM running for 3.626)
+2020-01-02 15:36:04,148 INFO org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner [main] Running default command line with: []
+2020-01-02 15:36:04,148 WARN org.springframework.batch.core.configuration.annotation.DefaultBatchConfigurer [main] No datasource was provided...using a Map based JobRepository
+2020-01-02 15:36:04,149 WARN org.springframework.batch.core.configuration.annotation.DefaultBatchConfigurer [main] No transaction manager was provided, using a ResourcelessTransactionManager
+2020-01-02 15:36:04,164 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-01-02 15:36:04,209 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] Job: [FlowJob: [name=processJob1]] launched with the following parameters: [{run.id=1}]
+2020-01-02 15:36:04,248 INFO org.springframework.batch.core.job.SimpleStepHandler [main] Executing step: [orderStep7]
+2020-01-02 15:36:04,300 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=neelu, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=70.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 15:36:04,301 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 15:36:04,301 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=sudha, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=27.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=17.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 15:36:04,302 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=neelu, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=70.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=367.0, percantage=73.4, grade=B]
+2020-01-02 15:36:04,302 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 15:36:04,303 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=bhagya, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=27.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=17.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 15:36:04,303 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=neelu, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=70.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=367.0, percantage=73.4, grade=B]
+2020-01-02 15:36:04,303 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 15:36:04,326 INFO org.springframework.batch.core.step.AbstractStep [main] Step: [orderStep7] executed in 77ms
+2020-01-02 15:36:04,331 INFO com.springbatch.listener.JobCompletionListener [main] JOB COMPLETED SUCCESSFULLY
+2020-01-02 15:36:04,334 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] Job: [FlowJob: [name=processJob1]] completed with the following parameters: [{run.id=1}] and the following status: [COMPLETED] in 99ms
+2020-01-02 15:43:12,284 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] Starting SpringbatchCsvtocsvApplication on DIN83001096 with PID 11740 (started by tneelave in C:\Users\tneelave\spring-batch-data\springbatch-csvtocsv\springbatch-csvtocsv)
+2020-01-02 15:43:12,287 DEBUG com.springbatch.SpringbatchCsvtocsvApplication [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-02 15:43:12,287 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] No active profile set, falling back to default profiles: default
+2020-01-02 15:43:12,882 INFO com.springbatch.step.Reader [main] --------------Reader----------
+2020-01-02 15:43:12,933 INFO com.springbatch.config.BatchConfiguration [main] ===============in job method========
+2020-01-02 15:43:13,036 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] Started SpringbatchCsvtocsvApplication in 1.09 seconds (JVM running for 3.578)
+2020-01-02 15:43:13,037 INFO org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner [main] Running default command line with: []
+2020-01-02 15:43:13,038 WARN org.springframework.batch.core.configuration.annotation.DefaultBatchConfigurer [main] No datasource was provided...using a Map based JobRepository
+2020-01-02 15:43:13,038 WARN org.springframework.batch.core.configuration.annotation.DefaultBatchConfigurer [main] No transaction manager was provided, using a ResourcelessTransactionManager
+2020-01-02 15:43:13,051 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-01-02 15:43:13,095 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] Job: [FlowJob: [name=processJob1]] launched with the following parameters: [{run.id=1}]
+2020-01-02 15:43:13,132 INFO org.springframework.batch.core.job.SimpleStepHandler [main] Executing step: [orderStep7]
+2020-01-02 15:43:13,178 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=neelu, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=70.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 15:43:13,179 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 15:43:13,179 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=sudha, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=27.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=17.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 15:43:13,180 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=neelu, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=70.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=367.0, percantage=73.4, grade=B]
+2020-01-02 15:43:13,180 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 15:43:13,180 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=bhagya, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=27.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=17.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 15:43:13,181 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=neelu, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=70.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=367.0, percantage=73.4, grade=B]
+2020-01-02 15:43:13,181 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 15:43:13,198 INFO org.springframework.batch.core.step.AbstractStep [main] Step: [orderStep7] executed in 65ms
+2020-01-02 15:43:13,204 INFO com.springbatch.listener.JobCompletionListener [main] JOB COMPLETED SUCCESSFULLY
+2020-01-02 15:43:13,208 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] Job: [FlowJob: [name=processJob1]] completed with the following parameters: [{run.id=1}] and the following status: [COMPLETED] in 87ms
+2020-01-02 15:45:00,530 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] Starting SpringbatchCsvtocsvApplication on DIN83001096 with PID 8696 (started by tneelave in C:\Users\tneelave\spring-batch-data\springbatch-csvtocsv\springbatch-csvtocsv)
+2020-01-02 15:45:00,532 DEBUG com.springbatch.SpringbatchCsvtocsvApplication [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-02 15:45:00,533 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] No active profile set, falling back to default profiles: default
+2020-01-02 15:45:15,120 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] Starting SpringbatchCsvtocsvApplication on DIN83001096 with PID 9480 (started by tneelave in C:\Users\tneelave\spring-batch-data\springbatch-csvtocsv\springbatch-csvtocsv)
+2020-01-02 15:45:15,122 DEBUG com.springbatch.SpringbatchCsvtocsvApplication [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-02 15:45:15,122 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] No active profile set, falling back to default profiles: default
+2020-01-02 15:45:15,717 INFO com.springbatch.step.Reader [main] --------------Reader----------
+2020-01-02 15:45:15,769 INFO com.springbatch.config.BatchConfiguration [main] ===============in job method========
+2020-01-02 15:45:15,888 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] Started SpringbatchCsvtocsvApplication in 1.099 seconds (JVM running for 2.358)
+2020-01-02 15:45:15,889 INFO org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner [main] Running default command line with: []
+2020-01-02 15:45:15,890 WARN org.springframework.batch.core.configuration.annotation.DefaultBatchConfigurer [main] No datasource was provided...using a Map based JobRepository
+2020-01-02 15:45:15,891 WARN org.springframework.batch.core.configuration.annotation.DefaultBatchConfigurer [main] No transaction manager was provided, using a ResourcelessTransactionManager
+2020-01-02 15:45:15,906 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-01-02 15:45:15,950 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] Job: [FlowJob: [name=processJob1]] launched with the following parameters: [{run.id=1}]
+2020-01-02 15:45:15,989 INFO org.springframework.batch.core.job.SimpleStepHandler [main] Executing step: [orderStep7]
+2020-01-02 15:45:16,036 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=neelu, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=70.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 15:45:16,036 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 15:45:16,036 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=sudha, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=27.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=17.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 15:45:16,037 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=neelu, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=70.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=367.0, percantage=73.4, grade=B]
+2020-01-02 15:45:16,037 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 15:45:16,038 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=bhagya, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=27.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=17.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 15:45:16,038 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=neelu, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=70.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=367.0, percantage=73.4, grade=B]
+2020-01-02 15:45:16,038 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 15:45:16,056 INFO org.springframework.batch.core.step.AbstractStep [main] Step: [orderStep7] executed in 66ms
+2020-01-02 15:45:16,060 INFO com.springbatch.listener.JobCompletionListener [main] JOB COMPLETED SUCCESSFULLY
+2020-01-02 15:45:16,064 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] Job: [FlowJob: [name=processJob1]] completed with the following parameters: [{run.id=1}] and the following status: [COMPLETED] in 86ms
+2020-01-02 15:47:09,514 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] Starting SpringbatchCsvtocsvApplication on DIN83001096 with PID 13184 (started by tneelave in C:\Users\tneelave\spring-batch-data\springbatch-csvtocsv\springbatch-csvtocsv)
+2020-01-02 15:47:09,516 DEBUG com.springbatch.SpringbatchCsvtocsvApplication [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-02 15:47:09,516 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] No active profile set, falling back to default profiles: default
+2020-01-02 15:47:10,150 INFO com.springbatch.step.Reader [main] --------------Reader----------
+2020-01-02 15:47:10,220 INFO com.springbatch.config.BatchConfiguration [main] ===============in job method========
+2020-01-02 15:47:10,361 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] Started SpringbatchCsvtocsvApplication in 1.199 seconds (JVM running for 2.551)
+2020-01-02 15:47:10,363 INFO org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner [main] Running default command line with: []
+2020-01-02 15:47:10,364 WARN org.springframework.batch.core.configuration.annotation.DefaultBatchConfigurer [main] No datasource was provided...using a Map based JobRepository
+2020-01-02 15:47:10,364 WARN org.springframework.batch.core.configuration.annotation.DefaultBatchConfigurer [main] No transaction manager was provided, using a ResourcelessTransactionManager
+2020-01-02 15:47:10,381 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-01-02 15:47:10,426 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] Job: [FlowJob: [name=processJob1]] launched with the following parameters: [{run.id=1}]
+2020-01-02 15:47:10,464 INFO org.springframework.batch.core.job.SimpleStepHandler [main] Executing step: [orderStep7]
+2020-01-02 15:47:10,517 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=neelu, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=70.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 15:47:10,517 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 15:47:10,518 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=sudha, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=27.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=17.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 15:47:10,519 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=neelu, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=70.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=367.0, percantage=73.4, grade=B]
+2020-01-02 15:47:10,519 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 15:47:10,519 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=bhagya, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=27.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=17.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 15:47:10,520 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=neelu, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=70.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=367.0, percantage=73.4, grade=B]
+2020-01-02 15:47:10,520 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 15:47:10,537 INFO org.springframework.batch.core.step.AbstractStep [main] Step: [orderStep7] executed in 71ms
+2020-01-02 15:47:10,542 INFO com.springbatch.listener.JobCompletionListener [main] JOB COMPLETED SUCCESSFULLY
+2020-01-02 15:47:10,546 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] Job: [FlowJob: [name=processJob1]] completed with the following parameters: [{run.id=1}] and the following status: [COMPLETED] in 92ms
+2020-01-02 15:48:08,431 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] Starting SpringbatchCsvtocsvApplication on DIN83001096 with PID 11376 (started by tneelave in C:\Users\tneelave\spring-batch-data\springbatch-csvtocsv\springbatch-csvtocsv)
+2020-01-02 15:48:08,433 DEBUG com.springbatch.SpringbatchCsvtocsvApplication [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-02 15:48:08,434 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] No active profile set, falling back to default profiles: default
+2020-01-02 15:48:09,094 INFO com.springbatch.step.Reader [main] --------------Reader----------
+2020-01-02 15:48:09,148 INFO com.springbatch.config.BatchConfiguration [main] ===============in job method========
+2020-01-02 15:48:09,255 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] Started SpringbatchCsvtocsvApplication in 1.16 seconds (JVM running for 2.402)
+2020-01-02 15:48:09,255 INFO org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner [main] Running default command line with: []
+2020-01-02 15:48:09,256 WARN org.springframework.batch.core.configuration.annotation.DefaultBatchConfigurer [main] No datasource was provided...using a Map based JobRepository
+2020-01-02 15:48:09,257 WARN org.springframework.batch.core.configuration.annotation.DefaultBatchConfigurer [main] No transaction manager was provided, using a ResourcelessTransactionManager
+2020-01-02 15:48:09,272 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-01-02 15:48:09,318 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] Job: [FlowJob: [name=processJob1]] launched with the following parameters: [{run.id=1}]
+2020-01-02 15:48:09,356 INFO org.springframework.batch.core.job.SimpleStepHandler [main] Executing step: [orderStep7]
+2020-01-02 15:48:09,409 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=neelu, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=70.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 15:48:09,409 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 15:48:09,409 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=sudha, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=27.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=17.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 15:48:09,410 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=neelu, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=70.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=367.0, percantage=73.4, grade=B]
+2020-01-02 15:48:09,410 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 15:48:09,411 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=bhagya, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=27.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=17.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 15:48:09,411 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=neelu, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=70.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=367.0, percantage=73.4, grade=B]
+2020-01-02 15:48:09,411 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 15:48:09,421 INFO org.springframework.batch.core.step.AbstractStep [main] Step: [orderStep7] executed in 64ms
+2020-01-02 15:48:09,430 INFO com.springbatch.listener.JobCompletionListener [main] JOB COMPLETED SUCCESSFULLY
+2020-01-02 15:48:09,433 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] Job: [FlowJob: [name=processJob1]] completed with the following parameters: [{run.id=1}] and the following status: [COMPLETED] in 90ms
+2020-01-02 15:54:18,615 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] Starting SpringbatchCsvtocsvApplication on DIN83001096 with PID 9864 (started by tneelave in C:\Users\tneelave\spring-batch-data\springbatch-csvtocsv\springbatch-csvtocsv)
+2020-01-02 15:54:18,617 DEBUG com.springbatch.SpringbatchCsvtocsvApplication [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-02 15:54:18,618 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] No active profile set, falling back to default profiles: default
+2020-01-02 15:54:19,256 INFO com.springbatch.step.Reader [main] --------------Reader----------
+2020-01-02 15:54:19,309 INFO com.springbatch.config.BatchConfiguration [main] ===============in job method========
+2020-01-02 15:54:19,426 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] Started SpringbatchCsvtocsvApplication in 1.167 seconds (JVM running for 3.697)
+2020-01-02 15:54:19,427 INFO org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner [main] Running default command line with: []
+2020-01-02 15:54:19,428 WARN org.springframework.batch.core.configuration.annotation.DefaultBatchConfigurer [main] No datasource was provided...using a Map based JobRepository
+2020-01-02 15:54:19,428 WARN org.springframework.batch.core.configuration.annotation.DefaultBatchConfigurer [main] No transaction manager was provided, using a ResourcelessTransactionManager
+2020-01-02 15:54:19,442 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-01-02 15:54:19,490 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] Job: [FlowJob: [name=processJob1]] launched with the following parameters: [{run.id=1}]
+2020-01-02 15:54:19,531 INFO org.springframework.batch.core.job.SimpleStepHandler [main] Executing step: [orderStep7]
+2020-01-02 15:54:19,584 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=neelu, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=70.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 15:54:19,584 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 15:54:19,584 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=sudha, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=27.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=17.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 15:54:19,584 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 15:54:19,584 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=bhagya, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=27.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 15:54:19,584 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 15:54:19,596 INFO org.springframework.batch.core.step.AbstractStep [main] Step: [orderStep7] executed in 65ms
+2020-01-02 15:54:19,602 INFO com.springbatch.listener.JobCompletionListener [main] JOB COMPLETED SUCCESSFULLY
+2020-01-02 15:54:19,605 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] Job: [FlowJob: [name=processJob1]] completed with the following parameters: [{run.id=1}] and the following status: [COMPLETED] in 88ms
+2020-01-02 15:56:45,515 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] Starting SpringbatchCsvtocsvApplication on DIN83001096 with PID 17016 (started by tneelave in C:\Users\tneelave\spring-batch-data\springbatch-csvtocsv\springbatch-csvtocsv)
+2020-01-02 15:56:45,518 DEBUG com.springbatch.SpringbatchCsvtocsvApplication [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-02 15:56:45,518 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] No active profile set, falling back to default profiles: default
+2020-01-02 15:56:46,094 INFO com.springbatch.step.Reader [main] --------------Reader----------
+2020-01-02 15:56:46,144 INFO com.springbatch.config.BatchConfiguration [main] ===============in job method========
+2020-01-02 15:56:46,249 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] Started SpringbatchCsvtocsvApplication in 1.082 seconds (JVM running for 3.588)
+2020-01-02 15:56:46,251 INFO org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner [main] Running default command line with: []
+2020-01-02 15:56:46,252 WARN org.springframework.batch.core.configuration.annotation.DefaultBatchConfigurer [main] No datasource was provided...using a Map based JobRepository
+2020-01-02 15:56:46,252 WARN org.springframework.batch.core.configuration.annotation.DefaultBatchConfigurer [main] No transaction manager was provided, using a ResourcelessTransactionManager
+2020-01-02 15:56:46,267 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-01-02 15:56:46,312 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] Job: [FlowJob: [name=processJob1]] launched with the following parameters: [{run.id=1}]
+2020-01-02 15:56:46,348 INFO org.springframework.batch.core.job.SimpleStepHandler [main] Executing step: [orderStep7]
+2020-01-02 15:56:46,397 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=neelu, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=70.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 15:56:46,397 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 15:56:46,397 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=sudha, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=27.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=17.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 15:56:46,398 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=neelu, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=70.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=367.0, percantage=73.4, grade=B]
+2020-01-02 15:56:46,398 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 15:56:46,399 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=bhagya, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=27.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 15:56:46,399 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=neelu, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=70.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=367.0, percantage=73.4, grade=B]
+2020-01-02 15:56:46,399 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 15:56:46,409 INFO org.springframework.batch.core.step.AbstractStep [main] Step: [orderStep7] executed in 60ms
+2020-01-02 15:56:46,414 INFO com.springbatch.listener.JobCompletionListener [main] JOB COMPLETED SUCCESSFULLY
+2020-01-02 15:56:46,417 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] Job: [FlowJob: [name=processJob1]] completed with the following parameters: [{run.id=1}] and the following status: [COMPLETED] in 80ms
+2020-01-02 16:00:06,193 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] Starting SpringbatchCsvtocsvApplication on DIN83001096 with PID 16072 (started by tneelave in C:\Users\tneelave\spring-batch-data\springbatch-csvtocsv\springbatch-csvtocsv)
+2020-01-02 16:00:06,196 DEBUG com.springbatch.SpringbatchCsvtocsvApplication [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-02 16:00:06,196 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] No active profile set, falling back to default profiles: default
+2020-01-02 16:00:06,780 INFO com.springbatch.step.Reader [main] --------------Reader----------
+2020-01-02 16:00:06,834 INFO com.springbatch.config.BatchConfiguration [main] ===============in job method========
+2020-01-02 16:00:06,945 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] Started SpringbatchCsvtocsvApplication in 1.103 seconds (JVM running for 3.794)
+2020-01-02 16:00:06,946 INFO org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner [main] Running default command line with: []
+2020-01-02 16:00:06,947 WARN org.springframework.batch.core.configuration.annotation.DefaultBatchConfigurer [main] No datasource was provided...using a Map based JobRepository
+2020-01-02 16:00:06,948 WARN org.springframework.batch.core.configuration.annotation.DefaultBatchConfigurer [main] No transaction manager was provided, using a ResourcelessTransactionManager
+2020-01-02 16:00:06,961 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-01-02 16:00:07,008 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] Job: [FlowJob: [name=processJob1]] launched with the following parameters: [{run.id=1}]
+2020-01-02 16:00:07,047 INFO org.springframework.batch.core.job.SimpleStepHandler [main] Executing step: [orderStep7]
+2020-01-02 16:00:07,096 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=neelu, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=70.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 16:00:07,096 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 16:00:07,096 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=sudha, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=27.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=17.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 16:00:07,097 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=neelu, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=70.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=367.0, percantage=73.4, grade=B]
+2020-01-02 16:00:07,098 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 16:00:07,098 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=bhagya, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=27.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 16:00:07,098 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=neelu, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=70.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=367.0, percantage=73.4, grade=B]
+2020-01-02 16:00:07,099 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 16:00:07,108 INFO org.springframework.batch.core.step.AbstractStep [main] Step: [orderStep7] executed in 61ms
+2020-01-02 16:00:07,114 INFO com.springbatch.listener.JobCompletionListener [main] JOB COMPLETED SUCCESSFULLY
+2020-01-02 16:00:07,117 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] Job: [FlowJob: [name=processJob1]] completed with the following parameters: [{run.id=1}] and the following status: [COMPLETED] in 84ms
+2020-01-02 16:01:32,452 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] Starting SpringbatchCsvtocsvApplication on DIN83001096 with PID 16656 (started by tneelave in C:\Users\tneelave\spring-batch-data\springbatch-csvtocsv\springbatch-csvtocsv)
+2020-01-02 16:01:32,455 DEBUG com.springbatch.SpringbatchCsvtocsvApplication [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-02 16:01:32,455 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] No active profile set, falling back to default profiles: default
+2020-01-02 16:01:33,099 INFO com.springbatch.step.Reader [main] --------------Reader----------
+2020-01-02 16:01:33,151 INFO com.springbatch.config.BatchConfiguration [main] ===============in job method========
+2020-01-02 16:01:33,257 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] Started SpringbatchCsvtocsvApplication in 1.139 seconds (JVM running for 3.671)
+2020-01-02 16:01:33,258 INFO org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner [main] Running default command line with: []
+2020-01-02 16:01:33,259 WARN org.springframework.batch.core.configuration.annotation.DefaultBatchConfigurer [main] No datasource was provided...using a Map based JobRepository
+2020-01-02 16:01:33,259 WARN org.springframework.batch.core.configuration.annotation.DefaultBatchConfigurer [main] No transaction manager was provided, using a ResourcelessTransactionManager
+2020-01-02 16:01:33,274 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-01-02 16:01:33,318 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] Job: [FlowJob: [name=processJob1]] launched with the following parameters: [{run.id=1}]
+2020-01-02 16:01:33,355 INFO org.springframework.batch.core.job.SimpleStepHandler [main] Executing step: [orderStep7]
+2020-01-02 16:01:33,407 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=neelu, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=70.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 16:01:33,407 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 16:01:33,407 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=sudha, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=27.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=17.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 16:01:33,409 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=neelu, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=70.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=367.0, percantage=73.4, grade=B]
+2020-01-02 16:01:33,409 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 16:01:33,410 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=bhagya, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=27.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 16:01:33,410 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=neelu, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=70.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=367.0, percantage=73.4, grade=B]
+2020-01-02 16:01:33,410 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 16:01:33,421 INFO org.springframework.batch.core.step.AbstractStep [main] Step: [orderStep7] executed in 66ms
+2020-01-02 16:01:33,427 INFO com.springbatch.listener.JobCompletionListener [main] JOB COMPLETED SUCCESSFULLY
+2020-01-02 16:01:33,430 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] Job: [FlowJob: [name=processJob1]] completed with the following parameters: [{run.id=1}] and the following status: [COMPLETED] in 87ms
+2020-01-02 16:13:44,515 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] Starting SpringbatchCsvtocsvApplication on DIN83001096 with PID 2472 (started by tneelave in C:\Users\tneelave\spring-batch-data\springbatch-csvtocsv\springbatch-csvtocsv)
+2020-01-02 16:13:44,517 DEBUG com.springbatch.SpringbatchCsvtocsvApplication [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-02 16:13:44,518 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] No active profile set, falling back to default profiles: default
+2020-01-02 16:13:45,127 INFO com.springbatch.step.Reader [main] --------------Reader----------
+2020-01-02 16:13:45,179 INFO com.springbatch.config.BatchConfiguration [main] ===============in job method========
+2020-01-02 16:13:45,282 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] Started SpringbatchCsvtocsvApplication in 1.117 seconds (JVM running for 3.687)
+2020-01-02 16:13:45,283 INFO org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner [main] Running default command line with: []
+2020-01-02 16:13:45,284 WARN org.springframework.batch.core.configuration.annotation.DefaultBatchConfigurer [main] No datasource was provided...using a Map based JobRepository
+2020-01-02 16:13:45,284 WARN org.springframework.batch.core.configuration.annotation.DefaultBatchConfigurer [main] No transaction manager was provided, using a ResourcelessTransactionManager
+2020-01-02 16:13:45,298 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-01-02 16:13:45,345 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] Job: [FlowJob: [name=processJob1]] launched with the following parameters: [{run.id=1}]
+2020-01-02 16:13:45,384 INFO org.springframework.batch.core.job.SimpleStepHandler [main] Executing step: [orderStep7]
+2020-01-02 16:13:45,432 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=neelu, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=70.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 16:13:45,432 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 16:13:45,432 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=sudha, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=27.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=17.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 16:13:45,433 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=neelu, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=70.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=367.0, percantage=73.4, grade=B]
+2020-01-02 16:13:45,433 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 16:13:45,434 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=bhagya, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=27.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 16:13:45,434 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=neelu, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=70.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=367.0, percantage=73.4, grade=B]
+2020-01-02 16:13:45,435 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 16:13:45,445 INFO org.springframework.batch.core.step.AbstractStep [main] Step: [orderStep7] executed in 61ms
+2020-01-02 16:13:45,451 INFO com.springbatch.listener.JobCompletionListener [main] JOB COMPLETED SUCCESSFULLY
+2020-01-02 16:13:45,454 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] Job: [FlowJob: [name=processJob1]] completed with the following parameters: [{run.id=1}] and the following status: [COMPLETED] in 83ms
+2020-01-02 16:42:23,633 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] Starting SpringbatchCsvtocsvApplication on DIN83001096 with PID 16312 (started by tneelave in C:\Users\tneelave\spring-batch-data\springbatch-csvtocsv\springbatch-csvtocsv)
+2020-01-02 16:42:23,635 DEBUG com.springbatch.SpringbatchCsvtocsvApplication [main] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-02 16:42:23,635 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] No active profile set, falling back to default profiles: default
+2020-01-02 16:42:24,259 INFO com.springbatch.step.Reader [main] --------------Reader----------
+2020-01-02 16:42:24,313 INFO com.springbatch.config.BatchConfiguration [main] ===============in job method========
+2020-01-02 16:42:24,432 INFO com.springbatch.SpringbatchCsvtocsvApplication [main] Started SpringbatchCsvtocsvApplication in 1.162 seconds (JVM running for 3.679)
+2020-01-02 16:42:24,433 INFO org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner [main] Running default command line with: []
+2020-01-02 16:42:24,434 WARN org.springframework.batch.core.configuration.annotation.DefaultBatchConfigurer [main] No datasource was provided...using a Map based JobRepository
+2020-01-02 16:42:24,434 WARN org.springframework.batch.core.configuration.annotation.DefaultBatchConfigurer [main] No transaction manager was provided, using a ResourcelessTransactionManager
+2020-01-02 16:42:24,449 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-01-02 16:42:24,493 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] Job: [FlowJob: [name=processJob1]] launched with the following parameters: [{run.id=1}]
+2020-01-02 16:42:24,531 INFO org.springframework.batch.core.job.SimpleStepHandler [main] Executing step: [orderStep7]
+2020-01-02 16:42:24,584 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=neelu, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=70.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 16:42:24,584 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 16:42:24,584 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=sudha, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=27.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=17.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 16:42:24,585 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=neelu, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=70.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=367.0, percantage=73.4, grade=B]
+2020-01-02 16:42:24,585 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 16:42:24,586 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=bhagya, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=27.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=0.0, percantage=0.0, grade=null]
+2020-01-02 16:42:24,586 INFO com.springbatch.step.Processor [main] -----------processor data----------Student [firstName=neelu, middleName=nothing, lastName=thuraka, school=govt, maths=maths, science=science, hindi=hindi, social=social, english=english, socialMarks=50.0, mathsMarks=70.0, scienceMarks=80.0, hindiMarks=90.0, englishMarks=77.0, totalMarks=367.0, percantage=73.4, grade=B]
+2020-01-02 16:42:24,586 INFO com.springbatch.step.Processor [main] ------------processor if-------------
+2020-01-02 16:42:24,597 INFO org.springframework.batch.core.step.AbstractStep [main] Step: [orderStep7] executed in 65ms
+2020-01-02 16:42:24,602 INFO com.springbatch.listener.JobCompletionListener [main] JOB COMPLETED SUCCESSFULLY
+2020-01-02 16:42:24,605 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [main] Job: [FlowJob: [name=processJob1]] completed with the following parameters: [{run.id=1}] and the following status: [COMPLETED] in 87ms
